@@ -1,0 +1,25 @@
+use:nth-child(1) {
+  transform: translate(40px);
+}
+  use:nth-child(2) {
+    transform: translate(100px);
+  }
+  use:nth-child(3) {
+    transform: translate(160px);
+  }
+  use:nth-child(4) {
+    transform: translate(220px);
+  }
+  use:nth-child(5) {
+    transform: translate(280px);
+  }
+
+
+.rating {
+  display: block;
+  height: 100px;
+  margin: 0.75rem auto;
+  width: 400px;
+}
+
+
