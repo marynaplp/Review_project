@@ -14,6 +14,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "node": "^19.6.0",
     "node-mailjet": "^6.0.2",
     "nodemailer": "^6.9.1",
     "nodemon": "^2.0.20",
@@ -31,10 +32,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "nodemon server",
-    "client":"npm start --prefix client",
+    "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\"\"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm rub build--prefix client" 
-
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm rub build--prefix client"
   },
   "eslintConfig": {
     "extends": [
